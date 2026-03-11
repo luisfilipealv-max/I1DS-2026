@@ -1,0 +1,39 @@
+// Operadores lógicos
+let souPOBRE = true;
+
+console.log("sou pobre?", souPOBRE);
+console.log("negação de souPOBRE:", !souPOBRE);
+
+let manha = true;
+let sono = true;
+console.log("--------------------")
+console.log("manhã:", manha, "| estou com sono?", sono);
+
+console.log("Operador AND (E)",);
+
+// comparadpr e (AND) e ou (OR)
+console.log("Operador AND (E):", manha && sono);
+console.log("Operador OR (OU):", manha || sono);
+
+manha = false
+console.log("--------------------")
+console.log("manhã:", manha, "| estou com sono?", sono);
+
+console.log("Operador AND (E)",);
+
+// comparadpr e (AND) e ou (OR)
+console.log("Operador AND (E):", manha && sono);
+console.log("Operador OR (OU):", manha || sono);
+
+sono = false 
+console.log("--------------------")
+console.log("manhã:", manha, "| estou com sono?", sono);
+
+console.log("Operador AND (E)",);
+
+// comparadpr e (AND) e ou (OR)
+console.log("Operador AND (E):", manha && sono);
+console.log("Operador OR (OU):", manha || sono);
+
+
+
